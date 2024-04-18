@@ -1,0 +1,18 @@
+.card-container {
+    width: 100%; /* Container'ı tam ekran genişliğinde yapar */
+    text-align: center; /* Kartları yatay olarak ortalar */
+}
+
+.card {
+    width: 400px; /* Kart genişliği */
+    height: 400px; /* Kart yüksekliği */
+    display: inline-block; /* Kartları yan yana hizalar */
+    margin: 0 40px; /* Kartlar arasında 20 piksel boşluk bırakır */
+}
+
+.education {
+    margin-top: 260px; /* Yukarıdan 10px boşluk bırakır */
+    margin-right: 520px; /* Sağdan 20px boşluk bırakır */
+    margin-left: 520px; /* Soldan 20px boşluk bırakır */
+
+}

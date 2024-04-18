@@ -1,0 +1,21 @@
+.appbar{
+    position: fixed;
+    top: 0 ;
+    left : 0 ;
+    margin: 0 ;
+}
+.grid{
+    margin-right: 340px;
+    justify-content: flex-end;
+}
+.button-style {
+    background-color: coral !important;;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid coral;
+    transition: transform 0.3s;
+}
+.button-style:hover {
+    background-color: dimgrey !important;
+    transform: scale(1.1);
+}

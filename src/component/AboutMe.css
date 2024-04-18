@@ -1,0 +1,34 @@
+.about-me {
+    margin-top: 260px; /* Yukarıdan 10px boşluk bırakır */
+    margin-right: 520px; /* Sağdan 20px boşluk bırakır */
+    margin-left: 520px; /* Soldan 20px boşluk bırakır */
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 46px; /* Metin boyutunu büyütür */
+    font-weight: bold; /* Kalın font kullanır */
+    color: #333; /* Metin rengi */
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 220px; /* H4 başlığından sonra 20px boşluk bırakır */
+}
+img {
+    width: 340px; /* Resmin genişliği */
+    height: auto; /* Otomatik olarak yükseklik ayarla (orantılı olarak) */
+    margin-left: 80px;
+    border-radius: 10px; /* Köşeleri yuvarlar */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Hafif bir gölge ekler */
+    transition: transform 0.3s ease; /* Mouse üzerine geldiğinde hafif bir büyüme efekti ekler */
+}
+
+/* Mouse üzerine geldiğinde resmin boyutunu biraz büyütür */
+img:hover {
+    transform: scale(1.05);
+}
+.container {
+    display: flex; /* Flexbox'u etkinleştir */
+    align-items: center; /* Elemanları dikeyde hizala */
+    margin-bottom: -50px;
+}
