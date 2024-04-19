@@ -28,9 +28,8 @@ export default function Education(){
         'Datenstrukturen',
         'Software-Projekt Management',
         'Computer Netze',
-        'Künstliche Intelligenz',
         'Data Mining',
-
+        'Künstliche Intelligenz',
     ];
     return(
         <>
