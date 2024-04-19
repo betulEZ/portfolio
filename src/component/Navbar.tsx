@@ -7,7 +7,7 @@ export default function Navbar() {
             <Box >
               <AppBar style={{ backgroundColor: 'coral' }}>
                 <Toolbar>
-                <Grid className="grid" container spacing={8} >
+                <Grid className="grid" container>
                     <Grid item>
                         <Button className="button-style" variant="contained">ÜBER MICH</Button>
                     </Grid>

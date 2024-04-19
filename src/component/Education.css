@@ -3,16 +3,20 @@
     text-align: center; /* Kartları yatay olarak ortalar */
 }
 
-.card {
+.card-new{
     width: 400px; /* Kart genişliği */
-    height: 400px; /* Kart yüksekliği */
+    height: 450px; /* Kart yüksekliği */
     display: inline-block; /* Kartları yan yana hizalar */
     margin: 0 40px; /* Kartlar arasında 20 piksel boşluk bırakır */
 }
 
 .education {
-    margin-top: 260px; /* Yukarıdan 10px boşluk bırakır */
-    margin-right: 520px; /* Sağdan 20px boşluk bırakır */
-    margin-left: 520px; /* Soldan 20px boşluk bırakır */
-
+    margin-top: 200px; /* Yukarıdan 10px boşluk bırakır */
+    margin-left: 26%; /* Soldan 20px boşluk bırakır */
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Yazıları sol kenara hizalar */
+    margin-left: 15px;
 }

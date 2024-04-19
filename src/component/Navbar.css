@@ -5,9 +5,13 @@
     margin: 0 ;
 }
 .grid{
-    margin-right: 340px;
+    margin-right: 16%;
     justify-content: flex-end;
 }
+.grid > .MuiGrid-item {
+    margin-right: 4%; /* Sağ tarafta 20 piksel boşluk bırakır */
+}
+
 .button-style {
     background-color: coral !important;;
     color: white;
