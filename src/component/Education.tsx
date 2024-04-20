@@ -1,6 +1,9 @@
 import {Button, Card, CardContent, Typography} from "@mui/material";
 import './Education.css'
-export default function Education(){
+interface EducationProps {
+    forwardedRef: React.Ref<HTMLDivElement>;
+}
+export default function Education({ forwardedRef }:EducationProps){
     const items = [
         'Backend',
         'Java',
@@ -30,10 +33,11 @@ export default function Education(){
         'Computer Netze',
         'Data Mining',
         'Künstliche Intelligenz',
+
     ];
     return(
         <>
-            <div className="education">
+            <div  id="education" className="education" ref={forwardedRef}>
                 <h2>Bildungs Informationen</h2>
             </div>
             <div className="card-container">

@@ -1,11 +1,14 @@
 import {Typography} from "@mui/material";
 import './AboutMe.css'
 import developerImage from "../developer.jpg";
-export default function AboutMe(){
+interface AboutMeProps {
+    forwardedRef: React.Ref<HTMLDivElement>;
+}
+export default function AboutMe({ forwardedRef }:AboutMeProps){
     return(
         <>
 
-            <div className="about-me">
+            <div className="about-me" id="aboutMe" ref={forwardedRef} >
                 <div className="container">
                     <h1>Hello, ich bin Betül</h1>
                     <img src={developerImage} alt="login"/>
