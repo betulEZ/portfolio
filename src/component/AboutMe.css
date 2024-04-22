@@ -13,6 +13,8 @@ h1 {
 h4{
     margin-top: 0;
     margin-bottom: 220px; /* H4 başlığından sonra 20px boşluk bırakır */
+    color: #333; /* Metin rengi */
+    font-weight: normal;
 }
 img {
     width: 370px; /* Resmin genişliği */

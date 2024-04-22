@@ -12,7 +12,8 @@
 
 .education {
     margin-top: 200px; /* Yukarıdan 10px boşluk bırakır */
-    margin-left: 26%; /* Soldan 20px boşluk bırakır */
+    margin-right: 26%; /* Sağdan yüzde 10 genişlikte boşluk bırakır */
+    margin-left: 26%; /* Soldan yüzde 10 genişlikte boşluk bırakır */
 }
 .card-content {
     display: flex;

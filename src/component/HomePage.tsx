@@ -10,15 +10,18 @@ export default function HomePage() {
 
     const handleAboutMeClick = () => {
         if (aboutMeRef.current) {
-            aboutMeRef.current.scrollIntoView({ behavior: 'smooth' });
+            const aboutMePosition = aboutMeRef.current.getBoundingClientRect().top;
+            window.scrollBy({ top: aboutMePosition - 80, behavior: 'smooth' });
         }
     };
 
     const handleEducationClick = () => {
         if (educationRef.current) {
-            educationRef.current.scrollIntoView({ behavior: 'smooth' });
+            const educationPosition = educationRef.current.getBoundingClientRect().top;
+            window.scrollBy({ top: educationPosition - 80, behavior: 'smooth' });
         }
     };
+
 
     return (
         <>

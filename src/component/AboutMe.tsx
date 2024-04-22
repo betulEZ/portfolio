@@ -10,10 +10,10 @@ export default function AboutMe({ forwardedRef }:AboutMeProps){
 
             <div className="about-me" id="aboutMe" ref={forwardedRef} >
                 <div className="container">
-                    <h1>Hello, ich bin Betül</h1>
+                    <h1>Hallo, ich bin Betül</h1>
                     <img src={developerImage} alt="login"/>
                 </div>
-                <h4>Computer Ingenieurin / Backend / Full Stack Entwicklerin</h4>
+                <h4>Computer Ingenieurin (BSc.) / Backend / Full Stack Entwicklerin</h4>
 
                 <h2>Über Mich</h2>
                 <Typography>

@@ -2,3 +2,12 @@ body {
     background-color: #f0f0f0;
     font-family: Bahnschrift, sans-serif;
 }
+h2 {
+    font-family: 'Arial', sans-serif; /* Font ailesi belirleme */
+    font-size: 28px; /* Metin boyutunu ayarlama */
+    font-weight: bold; /* Kalın font kullanma */
+    color: #444444;
+    padding: 10px; /* Başlık içerisine boşluk ekleme */
+    border-bottom:4px solid #CCCCCC; /* Alt kenarlık ekleme */
+    margin-bottom: 20px; /* Başlık altına boşluk ekleme */
+}
