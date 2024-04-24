@@ -1,6 +1,7 @@
 .card-container {
     width: 100%; /* Container'ı tam ekran genişliğinde yapar */
     text-align: center; /* Kartları yatay olarak ortalar */
+    margin-bottom: 10%;
 }
 
 .card-new{
