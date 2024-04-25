@@ -43,13 +43,13 @@ export default function Education({ forwardedRef }:EducationProps){
             <div className="card-container">
                 <Card className="card-new" sx={{  backgroundColor: 'rgba(255, 218, 185, 0.5)', padding: '20px', borderRadius: '40px' }} >
                     <CardContent className="card-content" >
-                        <Typography sx={{fontSize: 14}}>
+                        <Typography sx={{fontSize: 14, fontWeight: 'bold' }}>
                             Java Development Bootcamp
                         </Typography>
                         <Typography sx={{fontSize: 11}} color="text.secondary">
                             (720 Unterrichtseinheiten)
                         </Typography>
-                        <Typography sx={{fontSize: 14, mb: 1.5,}}>
+                        <Typography sx={{fontSize: 14, mb: 1.5}}>
                             neuefische GmbH, Deutschland
                         </Typography>
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
@@ -78,14 +78,17 @@ export default function Education({ forwardedRef }:EducationProps){
 
                 <Card className="card-new" sx={{  backgroundColor: 'rgba(255, 218, 185, 0.5)', padding: '20px', borderRadius: '40px' }}>
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14}}>
-                            Computer Ingenieurswesen
+                        <Typography sx={{fontSize: 14, fontWeight: 'bold' }}>
+                            Computer Ingenieurswesen (BSc.)
                         </Typography>
                         <Typography sx={{fontSize: 14}}>
                             Universität Fatih Sultan Mehmet Stiftung, Türkei
                         </Typography>
                         <Typography sx={{fontSize: 14}}>
                             Fakultät für Ingenieurswesen
+                        </Typography>
+                        <Typography sx={{fontSize: 11, mb: 1.5}} color="text.secondary">
+                           Anerkennung in Deutschland
                         </Typography>
 
                         <Typography sx={{fontSize: 14, textAlign: 'left'}} color="text.secondary" gutterBottom>

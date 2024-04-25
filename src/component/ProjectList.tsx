@@ -1,8 +1,12 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import {Button, Card, CardContent, Typography} from "@mui/material";
 import './ProjectList.css';
-
-export default function ProjectList(){
+import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+interface projectProps {
+    forwardedRef: React.Ref<HTMLDivElement>;
+}
+export default function ProjectList({ forwardedRef }:projectProps){
     const items = [
     'Java Spring Boot',
     'TypeScript',
@@ -16,6 +20,7 @@ export default function ProjectList(){
     const postApp_Item = [
         'Java Spring Boot',
         'Angular',
+        'HTML/CSS',
         'MySQL'
     ];
     const rudeSpriel_Item = [
@@ -28,13 +33,13 @@ export default function ProjectList(){
     ];
     return(
         <>
-         <div className="title">
+         <div className="title" ref={forwardedRef}>
             <h2>Projekt List</h2>
             </div>
             <div className="list">
                 <Card className="card-new">
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14}}>
+                        <Typography sx={{fontSize: 14, fontWeight: 'bold'}}>
                             Student Management Sytem
                         </Typography>
                         <Typography sx={{fontSize: 11, mb: 3}} color="text.secondary">
@@ -75,21 +80,43 @@ export default function ProjectList(){
                             marginBottom: '15px',
                             marginRight: '30px'
                         }}>
-                            <a href="https://github.com/betulEZ/StudentManagementSystem"
-                               style={{alignSelf: 'flex-end'}}>
-                                <GitHubIcon sx={{fontSize: '40px', color: 'coral'}}/>
-                            </a>
+
+
+                            <div style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+                                <a href="https://www.youtube.com/watch?v=gmdvwIHWxo0"
+                                   style={{alignSelf: 'flex-end', marginRight: '10px',textDecoration: 'none'}}>
+                                    <YouTubeIcon sx={{fontSize: '40px', color: 'coral'}}/>
+                                    <Typography sx={{fontSize: 12}} color="text.secondary">
+                                        Youtube
+                                    </Typography>
+                                </a>
+                                <a href="https://studentmangementsystem.onrender.com/"
+                                   style={{alignSelf: 'flex-end', marginRight: '10px',textDecoration: 'none'}}>
+                                    <OpenInBrowserIcon sx={{fontSize: '40px', color: 'coral'}}/>
+                                    <Typography sx={{fontSize: 12}} color="text.secondary">
+                                        Open In Browser
+                                    </Typography>
+                                </a>
+                                <a href="https://github.com/betulEZ/StudentManagementSystem"
+                                   style={{alignSelf: 'flex-end', marginRight: '10px',textDecoration: 'none'}}>
+                                    <GitHubIcon sx={{fontSize: '40px', color: 'coral'}}/>
+                                    <Typography sx={{fontSize: 12}} color="text.secondary">
+                                        Github
+                                    </Typography>
+                                </a>
+                            </div>
+
                         </div>
 
                     </CardContent>
                 </Card>
                 <Card className="card-new" style={{position: 'relative'}}>
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14, mb: 1.5}}>
+                        <Typography sx={{fontSize: 14, mb: 1.5, fontWeight: 'bold'}}>
                             Post App
                         </Typography>
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
-                            Der Benutzer, der sich erfolgreich anmelden oder registrieren kann, wird zur Hauptseite
+                        Der Benutzer, der sich erfolgreich anmelden oder registrieren kann, wird zur Hauptseite
                             des Projekts weitergeleitet.
                             Sie können Post teilen, indem Sie Text oder Titel im Projekt angeben. Der geteilte Post
                             kann kommentiert werden
@@ -144,7 +171,7 @@ export default function ProjectList(){
                 </Card>
                 <Card className="card-new">
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14, mb: 1.5}}>
+                        <Typography sx={{fontSize: 14, mb: 1.5, fontWeight: 'bold'}}>
                             Client-Server Kommunikation Rudespiel
                         </Typography>
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
@@ -172,7 +199,6 @@ export default function ProjectList(){
                                         typography: {
                                             fontSize: '10px' // Yazı tipi boyutu
                                         }
-
                                     }}
                                 >
                                     {item}
@@ -184,7 +210,7 @@ export default function ProjectList(){
                 </Card>
                 <Card className="card-new">
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14}}>
+                        <Typography sx={{fontSize: 14, fontWeight: 'bold'}}>
                             Cyberkriminalität und Die Sicherheit Der Institutionen
                         </Typography>
                         <Typography sx={{fontSize: 11, mb: 3}} color="text.secondary">
@@ -193,15 +219,14 @@ export default function ProjectList(){
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
                             Das Ziel dieses Projektes ist es, Penetrationstests durchzuführen und gemäß den
                             Testergebnissen Lösungsvorschläge für festgestellte Sicherheitslücken vorzuschlagen. Die
-                            durchgeführten Cyberattacken:
-                            <ul style={{listStyleType: 'none', paddingLeft: '4px', margin: 0}}>
-                                <li>&#10003; Angriffe mit Metasploit Framework</li>
-                                <li>&#10003; Angriff durch Erstellung eines Trojaners</li>
-                                <li>&#10003; Erstellen von gefährlichen Exe Dokumenten durch die Nutzung von Veil
-                                    Framework
-                                </li>
-                                <li>&#10003; Angriff mit Reverse Shell</li>
-                            </ul>
+                            durchgeführten Cyberattacken:<br/>
+                            &#10003; Angriffe mit Metasploit Framework.<br/>
+                            &#10003; Angriff durch Erstellung eines Trojaners.<br/>
+                            &#10003; Erstellen von gefährlichen Exe Dokumenten durch die Nutzung von Veil
+                            Framework.<br/>
+                            &#10003; Die Entfernung zum Hindernis kann aktuell durch die mobile Schnittstelle
+                            überwacht werden.<br/>
+                            &#10003; Angriff mit Reverse Shell.<br/>
                             Als Resultat wurden die notwendigen Vorschläge bezüglich „Schutzmethoden gegen Reverse Shell
                             Angriffe“ evaluiert und präsentiert.
                         </Typography>
@@ -209,11 +234,8 @@ export default function ProjectList(){
                 </Card>
                 <Card className="card-new">
                     <CardContent className="card-content">
-                        <Typography sx={{fontSize: 14}}>
+                        <Typography sx={{fontSize: 14, mb: 3, fontWeight: 'bold'}}>
                             Ferngesteuertes Fahrzeug
-                        </Typography>
-                        <Typography sx={{fontSize: 11, mb: 3}} color="text.secondary">
-                            Abschlussprojekt der Universität
                         </Typography>
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
                             &#10003; Das Fahrzeug wird aus der Ferne mit Bluetooth kontrolliert.<br/>

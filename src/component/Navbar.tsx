@@ -3,8 +3,9 @@ import './Navbar.css'
 interface NavbarProps {
     handleEducationClick: () => void;
     handleAboutMeClick: () => void;
+    handleProjectClick: () => void;
 }
-export default function Navbar({ handleAboutMeClick, handleEducationClick }: NavbarProps) {
+export default function Navbar({ handleAboutMeClick, handleEducationClick,handleProjectClick }: NavbarProps) {
 
     return (
         <>
@@ -19,7 +20,7 @@ export default function Navbar({ handleAboutMeClick, handleEducationClick }: Nav
                                 <Button className="button-style" variant="contained" onClick={handleEducationClick}>BILDUNGS INFORMATIONEN</Button>
                             </Grid>
                             <Grid item>
-                                <Button className="button-style" variant="contained">PROJEKT LISTE</Button>
+                                <Button className="button-style" variant="contained" onClick={handleProjectClick}>PROJEKT LISTE</Button>
                             </Grid>
                             <Grid item>
                                 <Button className="button-style" variant="contained">KONTAKT</Button>

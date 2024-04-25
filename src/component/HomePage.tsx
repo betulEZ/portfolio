@@ -7,7 +7,7 @@ import {useRef} from "react";
 export default function HomePage() {
     const aboutMeRef = useRef<HTMLDivElement>(null);
     const educationRef = useRef<HTMLDivElement>(null);
-
+    const projectRef = useRef<HTMLDivElement>(null);
     const handleAboutMeClick = () => {
         if (aboutMeRef.current) {
             const aboutMePosition = aboutMeRef.current.getBoundingClientRect().top;
@@ -21,14 +21,19 @@ export default function HomePage() {
             window.scrollBy({ top: educationPosition - 80, behavior: 'smooth' });
         }
     };
-
+    const handleProjectClick = () => {
+        if (projectRef.current) {
+            const projectPosition = projectRef.current.getBoundingClientRect().top;
+            window.scrollBy({ top: projectPosition - 80, behavior: 'smooth' });
+        }
+    };
 
     return (
         <>
-            <Navbar handleAboutMeClick={handleAboutMeClick} handleEducationClick={handleEducationClick} />
+            <Navbar handleAboutMeClick={handleAboutMeClick} handleEducationClick={handleEducationClick} handleProjectClick={handleProjectClick} />
             <AboutMe  forwardedRef={aboutMeRef}/>
             <Education forwardedRef={educationRef}/>
-            <ProjectList/>
+            <ProjectList forwardedRef={projectRef}/>
         </>
     );
 }
