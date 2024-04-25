@@ -224,8 +224,6 @@ export default function ProjectList({ forwardedRef }:projectProps){
                             &#10003; Angriff durch Erstellung eines Trojaners.<br/>
                             &#10003; Erstellen von gefährlichen Exe Dokumenten durch die Nutzung von Veil
                             Framework.<br/>
-                            &#10003; Die Entfernung zum Hindernis kann aktuell durch die mobile Schnittstelle
-                            überwacht werden.<br/>
                             &#10003; Angriff mit Reverse Shell.<br/>
                             Als Resultat wurden die notwendigen Vorschläge bezüglich „Schutzmethoden gegen Reverse Shell
                             Angriffe“ evaluiert und präsentiert.
