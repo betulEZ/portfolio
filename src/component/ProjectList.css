@@ -5,14 +5,14 @@
 }
 
 .title h2{
-    margin-right: 18%; ;
-    margin-left: 18%;;
+    margin-right: 13%;
+    margin-left: 13%;
 }
 
 .list .card-new {
     background-color: rgba(255, 218, 185, 0.5);
     border-radius: 40px;
-    width: 425px; /* Kartın sabit genişliği */
+    width: 430px; /* Kartın sabit genişliği */
     height: 400px; /* Kartın sabit yüksekliği */
     margin-bottom: 70px;
     position: relative;

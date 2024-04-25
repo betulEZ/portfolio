@@ -11,10 +11,10 @@ export default function ProjectList({ forwardedRef }:projectProps){
     'Java Spring Boot',
     'TypeScript',
     'HTML/CSS',
+     'React',
     'JUnit/Integrationstests',
     'Docker',
     'MongoDB',
-    'React',
     'Agile Methoden'
 ];
     const postApp_Item = [
