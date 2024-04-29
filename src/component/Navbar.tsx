@@ -4,8 +4,9 @@ interface NavbarProps {
     handleEducationClick: () => void;
     handleAboutMeClick: () => void;
     handleProjectClick: () => void;
+    handleContactClick: () => void;
 }
-export default function Navbar({ handleAboutMeClick, handleEducationClick,handleProjectClick }: NavbarProps) {
+export default function Navbar({ handleAboutMeClick, handleEducationClick,handleProjectClick,handleContactClick }: NavbarProps) {
 
     return (
         <>
@@ -23,7 +24,7 @@ export default function Navbar({ handleAboutMeClick, handleEducationClick,handle
                                 <Button className="button-style" variant="contained" onClick={handleProjectClick}>PROJEKT LISTE</Button>
                             </Grid>
                             <Grid item>
-                                <Button className="button-style" variant="contained">KONTAKT</Button>
+                                <Button className="button-style" variant="contained" onClick={handleContactClick}>KONTAKT</Button>
                             </Grid>
                         </Grid>
                     </Toolbar>

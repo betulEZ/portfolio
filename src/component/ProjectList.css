@@ -2,6 +2,7 @@
     text-align: center;
     margin-right: 5%;
     margin-left: 5%;
+    padding-bottom: 200px; /* Alt kenara 20 piksel boşluk ekle */
 }
 
 .title h2{
