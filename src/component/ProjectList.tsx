@@ -15,13 +15,15 @@ export default function ProjectList({ forwardedRef }:projectProps){
     'JUnit/Integrationstests',
     'Docker',
     'MongoDB',
-    'Agile Methoden'
+    'Agile Methoden' ,
+        'Rest API',
 ];
     const postApp_Item = [
         'Java Spring Boot',
         'Angular',
         'HTML/CSS',
-        'MySQL'
+        'MySQL',
+        'Rest API'
     ];
     const rudeSpriel_Item = [
         'Java Swing GUI',

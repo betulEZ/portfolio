@@ -13,21 +13,17 @@ export default function AboutMe({ forwardedRef }:AboutMeProps){
                     <h1>Hallo, ich bin Betül</h1>
                     <img src={developerImage} alt="login"/>
                 </div>
-                <h4>Computer Ingenieurin (BSc.) / Backend / Full Stack Entwicklerin</h4>
+                <h4>Computer Ingenieurin (BSc.) / Java / Full Stack Entwicklerin</h4>
 
                 <h2>Über Mich</h2>
                 <Typography>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et
-                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                    rebum. Stet
-                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                    amet,
-                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat,
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                    gubergren, no sea
-                    takimata sanctus est Lorem ipsum dolor sit amet.
+                    Mein Studium ist in Deutschland anerkannt und gleicht dem Grundstudium Informatik.
+                    Wir arbeiteten sehr praxisbezogen und konnten die erlernten Inhalte in anwendungsbezogenen Projekten direkt umsetzen.
+                    Dabei bemerke ich, dass mich vor allem Java interessiert.
+                    In meiner Ausbildung habe ich mein Wissen über objektorientierte Programmierung vertieft.
+                    Ich habe gelernt, wie man sauberen und erweiterbaren Java-Code schreibt und wie man ein Projekt
+                    von Backend bis Frontend in einer Webanwendung entwickelt.
+                    Meine Motivation ist immer, mein Kenntnisse auf die nächste Stufe zu bringen.
                 </Typography>
             </div>
         </>

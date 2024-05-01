@@ -44,7 +44,7 @@ export default function Education({ forwardedRef }:EducationProps){
                 <Card className="card-new" sx={{  backgroundColor: 'rgba(255, 218, 185, 0.5)', padding: '20px', borderRadius: '40px' }} >
                     <CardContent className="card-content" >
                         <Typography sx={{fontSize: 14, fontWeight: 'bold' }}>
-                            Java Development Bootcamp
+                           Traniee Fullstackentwicklung mit Java (Ausbildung)
                         </Typography>
                         <Typography sx={{fontSize: 11}} color="text.secondary">
                             (720 Unterrichtseinheiten)
