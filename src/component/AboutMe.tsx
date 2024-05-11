@@ -17,10 +17,10 @@ export default function AboutMe({ forwardedRef }:AboutMeProps){
 
                 <h2>Über Mich</h2>
                 <Typography>
-                    Mein Studium ist in Deutschland anerkannt und gleicht dem Grundstudium Informatik.
+                    Mein Studium ist in Deutschland anerkannt und gleicht dem Studium der Informatik.
                     Wir arbeiteten sehr praxisbezogen und konnten die erlernten Inhalte in anwendungsbezogenen Projekten direkt umsetzen.
                     Dabei bemerke ich, dass mich vor allem Java interessiert.
-                    In meiner Ausbildung habe ich mein Wissen über objektorientierte Programmierung vertieft.
+                    In meiner Ausbildung habe ich mein Wissen über objektorientierte Programmierung und Web-Applikation vertieft.
                     Ich habe gelernt, wie man sauberen und erweiterbaren Java-Code schreibt und wie man ein Projekt
                     von Backend bis Frontend in einer Webanwendung entwickelt.
                     Meine Motivation ist immer, mein Kenntnisse auf die nächste Stufe zu bringen.

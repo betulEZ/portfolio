@@ -16,7 +16,7 @@ export default function ProjectList({ forwardedRef }:projectProps){
     'Docker',
     'MongoDB',
     'Agile Methoden' ,
-        'Rest API',
+        'Rest API'
 ];
     const postApp_Item = [
         'Java Spring Boot',

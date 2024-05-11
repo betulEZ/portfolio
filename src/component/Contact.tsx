@@ -22,7 +22,7 @@ export default function Contact({ forwardedRef }:ContactProps){
                     </div>
                 </div>
                 <div>
-                    <Typography sx={{fontSize: 12, textAlign:"center"}} color="text.secondary">© Copyright 2024</Typography>
+                    <Typography sx={{fontSize: 12, textAlign:"center"}} color="text.secondary">© Copyright 2024 Betül Ezgü</Typography>
                 </div>
             </footer>
         </>
