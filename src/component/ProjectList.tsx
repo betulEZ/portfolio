@@ -45,7 +45,7 @@ export default function ProjectList({ forwardedRef }:projectProps){
                             Student Management Sytem
                         </Typography>
                         <Typography sx={{fontSize: 11, mb: 3}} color="text.secondary">
-                            Capstone Projekt für Weiterbildung
+                            Capstone Projekt für Ausbildung
                         </Typography>
                         <Typography sx={{fontSize: 14, mb: 1.5, textAlign: 'left'}} variant="body2">
                             Wenn der Lehrer/in angemeldet ist, kann er/sie die Schülerliste erstellen,

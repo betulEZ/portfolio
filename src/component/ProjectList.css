@@ -6,8 +6,8 @@
 }
 
 .title h2{
-    margin-right: 13%;
-    margin-left: 13%;
+    margin-right: 16%;
+    margin-left: 16%;
 }
 
 .list .card-new {
@@ -17,7 +17,7 @@
     height: 400px; /* Kartın sabit yüksekliği */
     margin-bottom: 70px;
     position: relative;
-
+    margin-right: 2px; /* Kartların arasındaki boşluğu belirler */
 }
 
 .list .card-new .card-content {
