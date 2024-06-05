@@ -16,6 +16,12 @@
     margin-right: 26%; /* Sağdan yüzde 10 genişlikte boşluk bırakır */
     margin-left: 26%; /* Soldan yüzde 10 genişlikte boşluk bırakır */
 }
+@media (max-width: 1500px) {
+    .education {
+        margin-right: 16%; /* Margin for smaller screens */
+        margin-left: 16%; /* Margin for smaller screens */
+    }
+}
 .card-content {
     display: flex;
     flex-direction: column;

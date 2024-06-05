@@ -3,10 +3,15 @@
     margin-right: 26%; /* Sağdan yüzde 10 genişlikte boşluk bırakır */
     margin-left: 26%; /* Soldan yüzde 10 genişlikte boşluk bırakır */
 }
-
+@media (max-width: 1500px) {
+    .about-me {
+        margin-right: 20%; /* Margin for smaller screens */
+        margin-left: 20%; /* Margin for smaller screens */
+    }
+}
 h1 {
     margin-bottom: 0;
-    font-size: 38px; /* Metin boyutunu büyütür */
+    font-size: 36px; /* Metin boyutunu büyütür */
     font-weight: bold; /* Kalın font kullanır */
     color: #333; /* Metin rengi */
 }
@@ -18,9 +23,9 @@ h4{
 }
 img {
     margin-top: -165px;
-    width: 370px; /* Resmin genişliği */
+    width: 300px; /* Resmin genişliği */
     height: auto; /* Otomatik olarak yükseklik ayarla (orantılı olarak) */
-    margin-left: 70px;
+    margin-left: auto;
     border-radius: 10px; /* Köşeleri yuvarlar */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Hafif bir gölge ekler */
     transition: transform 0.3s ease; /* Mouse üzerine geldiğinde hafif bir büyüme efekti ekler */
@@ -34,4 +39,6 @@ img:hover {
     display: flex; /* Flexbox'u etkinleştir */
     align-items: center; /* Elemanları dikeyde hizala */
 }
-
+.text-wrapper {
+    margin-right: 10px; /* Add some space below the text */
+}
